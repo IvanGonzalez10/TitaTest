@@ -1,0 +1,77 @@
+.global {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.header {
+  width: 85vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container a {
+  margin-right: 15px;
+}
+  a:hover {
+    color: black;
+    background-color: red;
+}
+  a:active{
+    background: red;
+  }
+
+.hero {
+  width: 95vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:  #ff5672;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+}
+
+.hero button {
+  width: 200px;
+  height: 40px;
+  background: white;
+  border: 1px solid  #ff5672;
+  color:  #ff5672;
+}
+
+.nav-container-images {
+  width: 60vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.nav-container-images a {
+  padding-left: 15px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item img {
+  max-width: 100%;
+}
