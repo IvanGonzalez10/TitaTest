@@ -68,10 +68,32 @@
   padding-left: 15px;
 }
 
+.images-section {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 370px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
 .item {
   padding: 10px;
+  background-color: #f3f3f3;
 }
 
 .item img {
   max-width: 100%;
+}
+.one{
+  grid-row-end: span 1;
+}
+.two{
+  grid-row-end: span 2;
+}
+.three{
+  grid-row-end: span 3;
+}
+.four{
+  grid-row-end: span 4;
 }
