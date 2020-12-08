@@ -13,8 +13,8 @@ body {
 }
 
 .burger-menu {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #ff5672c5;
   display: none;
@@ -57,7 +57,7 @@ body {
   margin-right: 10px;
   font-size: 14px;
   letter-spacing: 2px;
-  padding: 5px 10px;
+  padding: 8px 10px;
   justify-content: center;
   align-items: center;
   color: #707070;
@@ -223,10 +223,11 @@ a:visited {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .media-container button {
-  margin: 30px;
+  margin: 20px;
   width: 170px;
   height: 35px;
   font-size: 13px;
@@ -242,6 +243,8 @@ a:visited {
   font-size: 13px;
   letter-spacing: 2px;
   color: #c3d0d8;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .media-container span {
@@ -252,12 +255,13 @@ a:visited {
 }
 
 .nav-container-images img {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   padding: 5px;
 }
 
 @media (max-width: 768px) {
+
   .burger-menu {
     display: flex;
     z-index: 1;
@@ -268,10 +272,10 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 35vw;
     height: auto;
     top: 0;
-    left: -100vw;
+    left: -55vw;
     transition: .5s;
   }
 
@@ -286,15 +290,9 @@ a:visited {
     align-items: center;
     padding: 15px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     background: #ff56729d;
   }
-
-  /* a:link,
-  a:visited {
-    background: #ff56729d;
-    color: #ffffff;
-  } */
 
   .nav-container nav img {
     display: none;
@@ -303,6 +301,42 @@ a:visited {
   .hero {
     width: 100vw;
     height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  .hero h2 {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+
+  .hero button {
+    width: 130px;
+    height: 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .nav-container-images a {
+    padding: 5px 10px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .burger-menu {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav-container {
+    width: 60vw;
+    left: -60vw;
+    transition: .5s;
   }
 
   .hero h1 {
