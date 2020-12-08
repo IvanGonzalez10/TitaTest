@@ -334,9 +334,13 @@ a:visited {
   }
 
   .nav-container {
-    width: 60vw;
+    width: 40vw;
     left: -60vw;
     transition: .5s;
+  }
+
+  .nav-container a {
+    font-size: 15px;
   }
 
   .hero h1 {
