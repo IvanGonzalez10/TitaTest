@@ -113,7 +113,7 @@ a:visited {
   height: 35px;
   margin-right: 10px;
   font-size: 14px;
-  padding: 5px 15px;
+  padding: 5px 25px;
   justify-content: center;
   align-items: center;
   color: #707070;
@@ -162,34 +162,34 @@ a:visited {
 .item img {
   max-width: 100%;
 }
-.one {
+.item0 {
   grid-row-end: span 2;
 }
-.two {
+.item1 {
   grid-row-end: span 1;
 }
-.three {
+.item2 {
   grid-row-end: span 3;
 }
-.four {
+.item3 {
   grid-row-end: span 1;
 }
-.five {
+.item4 {
   grid-row-end: span 3;
 }
-.six {
+.item5 {
   grid-row-end: span 1;
 }
-.seven {
+.item6 {
   grid-row-end: span 4;
 }
-.eigth {
+.item7 {
   grid-row-end: span 2;
 }
-.nine {
+.item8 {
   grid-row-end: span 2;
 }
-.ten {
+.item9 {
   grid-row-end: span 2;
 }
 
