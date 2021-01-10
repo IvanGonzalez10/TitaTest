@@ -3,7 +3,7 @@ const burgerButton = document.querySelector('#burger-button');
 
 burgerButton.addEventListener('click', hideMenu)
 
-function hideMenu(){
+function hideMenu() {
   if (menu.classList.contains('is-active')){
     menu.classList.remove('is-active');
   } else {
